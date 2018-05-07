@@ -1,4 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <dirs>
-<entry loc="/usr/lib/jvm/java-8-openjdk-amd64" stamp="1506475579000"/>
+    <entry loc="/Library/Java/JavaVirtualMachines/jdk-9.0.1.jdk/Contents/Home" stamp="1515317182000"/>
+    <entry loc="/usr/lib/jvm/java-8-openjdk-amd64" stamp="1506475579000"/>
+    <entry loc="/Library/Java/JavaVirtualMachines/jdk1.8.0_162.jdk/Contents/Home" stamp="1518430529000"/>
 </dirs>
