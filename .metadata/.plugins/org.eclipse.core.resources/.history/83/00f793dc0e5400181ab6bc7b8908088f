@@ -4,7 +4,7 @@
 <style>
 body {
 	background-image: url("../images/img_tree.png");
-	/*background-image: url("../images/img_tree.png");*/
+	/*background-image: url("../images/img_tree.png");8?
 	background-repeat: no-repeat;
 	background-position: right top;
 }
