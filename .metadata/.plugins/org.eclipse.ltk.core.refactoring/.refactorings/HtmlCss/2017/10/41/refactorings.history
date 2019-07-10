@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring comment="Move &apos;3ways, applyDiv, css, multiple, selector, demo_default.htm, index.html&apos; to &apos;WebContent&apos;" description="Move 7 resources to &apos;WebContent&apos;" destination="WebContent" element1="/HTMLCSS/WebContent/3ways" element2="/HTMLCSS/WebContent/applyDiv" element3="/HTMLCSS/WebContent/css" element4="/HTMLCSS/WebContent/multiple" element5="/HTMLCSS/WebContent/selector" element6="/HTMLCSS/WebContent/demo_default.htm" element7="/HTMLCSS/WebContent/index.html" flags="7" id="org.eclipse.ltk.core.refactoring.move.resources" resources="7" stamp="1507686986535" updateReferences="true"/>
-</session>
