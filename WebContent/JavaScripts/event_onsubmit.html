@@ -15,7 +15,7 @@
         crossorigin="anonymous"></script>
 
 <script type="text/javascript">
-function validateform() {
+function validateform(param) {
     var name = document.myform.name.value;
     var password = document.myform.password.value;
 
@@ -37,10 +37,15 @@ function validateform() {
 <body>
     <div class="container mt-3">
 <span id="demo01"></span><br>
-<form name="myform" method="post" action="/login" onsubmit="return validateform()">
+<form name="myform" method="post" action="/login" onsubmit="return validateform(this)">
     Name: <input type="text" name="name"><br />
     Password: <input type="password" name="password"><br />
     <input type="submit" value="register">
-</form>
+    <form name="myform01" method="post" action="/login" onsubmit="return validateform(this)">
+        Name: <input type="text" name="name01"><br />
+        Password: <input type="password" name="password01"><br />
+        <input type="submit" value="register01">
+    </form>
+    </form>
     </div>
 </body>
