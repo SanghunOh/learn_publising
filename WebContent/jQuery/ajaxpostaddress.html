@@ -15,14 +15,8 @@
         $(function () {
             $("#search").click(function () {
                 $.ajax({
-                    type: "GET", contentType: "application/json",
-                    url: "http://openapi.epost.go.kr/postal/retrieveNewAdressAreaCdService/retrieveNewAdressAreaCdService/getNewAddressListAreaCd",
-                    data: JSON.stringify({
-                        searchSe: "dong", srchwrd: '주월동 408-1',
-                        countPerPage: 10, currentPage: 1,
-                        serviceKey:'BoygPZjC27pxm92hSposjnSob2u36vziS1rzIzxkrL9QxmlhB0SMARwLfNlBE3wrE7nnw34zLmmv0a6amvW4xg%3D%3D'
-                    }),
-                    dataType: "xml",
+                    type: "POST", contentType: 'application/x-www-form-urlencoded',
+                    url: "http://openapi.epost.go.kr/postal/retrieveNewAdressAreaCdService/retrieveNewAdressAreaCdService/getNewAddressListAreaCd?serviceKey=BoygPZjC27pxm92hSposjnSob2u36vziS1rzIzxkrL9QxmlhB0SMARwLfNlBE3wrE7nnw34zLmmv0a6amvW4xg%3D%3D&searchSe=dong&srchwrd=%EC%A3%BC%EC%9B%94%EB%8F%99%20408-1&countPerPage=10&currentPage=1",
                     success: function (data, status) {
                         $('#addressinfo').text(data);
                         alert("Status: " + status);
@@ -36,8 +30,11 @@
 
 <body>
     <div class="container">
-        <h2>Centered Modal Example</h2>
+        <h2>POST Modal Example</h2>
         <!-- Button to Open the Modal -->
+        <div class="form-group">
+            <input type="text" name="address" class="form-control" placeholder="ADDRESS">
+        </div>
         <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">
             Open modal
         </button>
