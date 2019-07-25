@@ -15,7 +15,7 @@
         $(function () {
             $("button").click(function () {
                 $.post("http://localhost:3000/api/v1.0/tasksMap", function (data, status) {
-                    alert("Data: " + typeof data + "\nStatus: " + status);
+                    // alert("Data: " + typeof data + "\nStatus: " + status);
                     $.map(data, function (value, key) {
                         alert(value + ' : ' + key);
                     });
