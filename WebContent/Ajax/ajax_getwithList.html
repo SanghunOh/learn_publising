@@ -14,10 +14,10 @@
     <script>
         $(function () {
             $("button").click(function () {
-                $.get("http://localhost:3000/api/v1.0/tasks", function (data, status) {
+                $.get("http://localhost:3000/api/v1.0/tasksList", function (data, status) {
                     alert("Data: " + typeof data + "\nStatus: " + status);
-                    $.each(data, function (i) {
-                        $.each(data[i], function (key, val) {
+                    $.each(data, function (index, currentData) {
+                        $.each(currentData, function (key, val) {
                             alert(key + ' : ' + val);
                         });
                     });
@@ -31,7 +31,7 @@
 
 <body>
     <div class="container">
-        <h2>POST Modal Example</h2>
+        <h2>Get Example</h2>
         <!-- Button to Open the Modal -->
         <p id="displaydata"></p>
         <button type="button" class="btn btn-primary">
