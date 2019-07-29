@@ -13,14 +13,11 @@
         crossorigin="anonymous"></script>
     <script>
         $(function () {
-            $("button").click(function () {
-                $.post("http://localhost:3000/api/v1.0/tasksMap", function (data, status) {
-                    // alert("Data: " + typeof data + "\nStatus: " + status);
-$.map(data, function (value, key) {
-    alert(value + ' : ' + key);
+$("button").click(function () {
+    $.get("http://localhost:8080/resthellow", function (data) {
+        alert("Data: " + data );
+    });
 });
-                });
-            });
         });
 
     </script>
@@ -29,7 +26,7 @@ $.map(data, function (value, key) {
 
 <body>
     <div class="container">
-        <h2>POST Modal Example</h2>
+        <h2>Get Example</h2>
         <!-- Button to Open the Modal -->
         <p id="displaydata"></p>
         <button type="button" class="btn btn-primary">
