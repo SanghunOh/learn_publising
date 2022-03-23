@@ -1,1 +1,4 @@
-# HTML, CSS, JavaScript API : https://developer.mozilla.org/en-US/docs/Web#web_technology_references
+# API
++ HTML : https://developer.mozilla.org/en-US/docs/Web/HTML
++ CSS : https://developer.mozilla.org/en-US/docs/Web/CSS
++ JavaScript : https://developer.mozilla.org/en-US/docs/Web/JavaScript
