@@ -8,3 +8,4 @@
 ### tool
 + Typescript web https://www.typescriptlang.org/play
 + JavaScript : https://codepen.io/
++ random image : https://placeimg.com/100/100/any
