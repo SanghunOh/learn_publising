@@ -2,8 +2,11 @@
  Ajax, bootstrap, CSS, HTML, JavaScript, JQuery
 ### 예제
 [index.html](./codes/index.html), [template.html](./codes/template.html)
-### API
+### Cases
+refer source : https://getbootstrap.com/docs/5.2/examples/starter-template/
+- [Starter TemplateBootstrap v5.2.html](./cases/StarterTemplate_Bootstrapv5.2.html)
 
+### API
 - HTML : https://developer.mozilla.org/en-US/docs/Web/HTML
 - CSS : https://developer.mozilla.org/en-US/docs/Web/CSS
 - JavaScript : https://developer.mozilla.org/en-US/docs/Web/JavaScript
