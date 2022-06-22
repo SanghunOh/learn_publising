@@ -94,3 +94,25 @@ footer {
   text-align: left;
   font-size: 1.5rem;
 }
+
+/* div.flex * {
+  border: 0.1rem solid gray;
+} */
+@media only all and (min-width: 760px) {
+  /* div.col-md-6 {
+    width: 48%;
+    background-color: lightblue;
+    display: inline-block;
+  } */
+  main > div.flex {
+    background-color: lightblue;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  div.col-md-6 {
+    /* width: 48%; */
+    flex-basis: 48%;
+    flex-grow: 1;
+  }
+}
