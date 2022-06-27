@@ -19,6 +19,7 @@ span.fs-4 {
   font-size: 2.5rem;
 }
 
+/* header */
 header {
   border-bottom: 1px solid rgb(222, 226, 230);
   padding-bottom: 1rem;
@@ -27,7 +28,13 @@ header > a {
   text-decoration: none;
   color: black;
 }
+header > a {
+  /* border: 1px dotted red; */
+  display: flex;
+  align-items: center;
+}
 
+/* main */
 main {
   padding-top: 5rem;
 }
