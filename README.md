@@ -17,7 +17,7 @@
 - webpack : https://webpack.js.org/
 - Typescript web https://www.typescriptlang.org/play
 - JavaScript : https://codepen.io/
-- VScode Extention : Prettier
+- VScode Extention : [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode), [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer)
 - VScode UI Setting : Menu > Code > Preference > Settings
   - search 'format' > Check Editor:Format On Save
   - search 'default format' > Select 'Prettier-Code Formatter' on Editor:Default Formatter.
